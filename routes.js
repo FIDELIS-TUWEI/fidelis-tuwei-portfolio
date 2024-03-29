@@ -4,7 +4,10 @@ const router = express.Router();
 
 // Welcome page
 router.get("/", (req, res) => {
-    console.log("Welcome to Node js APIs with Sequelize ORM");
+    res.json({
+        success: true,
+        message: "Welcome to Node js APIs with Sequelize ORM"
+    })
 });
 
 module.exports = router;
