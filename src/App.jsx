@@ -1,7 +1,13 @@
+import { UserAuth } from "./context/AuthContext";
+import NonUserRoutes from "./routes/NonUserRoutes";
+import UserRoutes from "./routes/UserRoutes";
 
 const App = () => {
+  const { isLoggedOut } = UserAuth();
   return (
-    <div>React</div>
+    <div>
+      {isLoggedOut ? <NonUserRoutes /> : <UserRoutes />}
+    </div>
   )
 };
 
