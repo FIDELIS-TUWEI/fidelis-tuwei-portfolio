@@ -1,8 +1,9 @@
+import { HomePage } from "./pages";
 
 const App = () => {
   return (
     <div>
-      Work order system
+      <HomePage />
     </div>
   )
 };
