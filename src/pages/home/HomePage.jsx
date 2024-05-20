@@ -1,7 +1,10 @@
+import {Navbar} from "../../components/index";
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 
