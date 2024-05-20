@@ -2,13 +2,17 @@ import { headerLogo } from "../assets";
 
 const Navbar = () => {
   return (
-    <header>
-      <nav>
-        <a href="/">
-          <img src={headerLogo} alt="work-order Logo" />
-        </a>
-      </nav>
-    </header>
+    <nav className="border-b-4 border-black">
+      <a href="/">
+        <img 
+          src={headerLogo} 
+          alt="work-order Logo" 
+          width={180}
+          height={180}
+          className="mx-auto mt-2"
+        />
+      </a>
+    </nav>
   )
 }
 
