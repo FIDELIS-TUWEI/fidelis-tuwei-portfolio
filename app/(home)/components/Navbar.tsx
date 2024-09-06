@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
         <nav className='py-10 flex justify-between items-center'>
-            <h1 className='text2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>Fidelis Tuwei 👩🏻‍💻</h1>
+            <h1 className='text2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>Tuwei 👩🏻‍💻</h1>
 
             <div className='flex items-center gap-5'>
                 {socials.map((social) => {
