@@ -2,7 +2,7 @@
 
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import Title from "./Title";
-import { SiDocker, SiExpress, SiGit, SiJavascript, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiReact, SiReactquery, SiRedux, SiTailwindcss } from "react-icons/si";
+import { SiDocker, SiExpress, SiFramer, SiGit, SiJavascript, SiMongodb, SiMysql, SiNextdotjs, SiNodedotjs, SiReact, SiReactquery, SiRedux, SiRender, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { FaAws } from "react-icons/fa6";
 import { DiRedis } from "react-icons/di";
 
@@ -15,6 +15,10 @@ const Skills = () => {
         {
             text: "Next.js",
             Icon: SiNextdotjs
+        },
+        {
+            text: "Framer Motion",
+            Icon: SiFramer
         },
         {
             text: "Tailwind",
@@ -57,8 +61,16 @@ const Skills = () => {
             Icon: SiJavascript
         },
         {
+            text: "Typescript",
+            Icon: SiTypescript
+        },
+        {
             text: "AWS",
             Icon: FaAws
+        },
+        {
+            text: "Render",
+            Icon: SiRender
         },
         {
             text: "Redis",
