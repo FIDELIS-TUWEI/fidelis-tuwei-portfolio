@@ -16,12 +16,12 @@ const HeroSection = () => {
                 </p>
                 <Link 
                     href={"mailto:fidel.tuwei@outlook.com"} 
-                    className='inline-block group relative overflow-hidden rounded-lg bg-green-500 hover:bg-green-600 transition-colors duration-300 ease-in-out'
+                    className='inline-block group relative overflow-hidden rounded-lg hover:bg-opacity-0 transition-colors duration-300 ease-in-out'
                 >
                     <span className='relative z-10 block px-6 py-3 text-white font-semibold'>
                         <Title text='Contact Me 📭' />
                     </span>
-                    <span className='absolute inset-0 z-0 bg-gradient-to-r from-green-400 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out'></span>
+                    <span className='absolute inset-0 z-0 bg-opacity-0 group-hover:opacity-10 transition-opacity duration-300 ease-in-out'></span>
                 </Link>
             </div>
 
